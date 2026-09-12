@@ -14,6 +14,8 @@ structure:
  - run once main method from the hello_world.sh 
     . 
 2. hello_world.sh
+ - get this file from another project directory.
+ - hide file path
  - show only hello world
 3. builder.sh
  - build contianer
@@ -21,5 +23,5 @@ structure:
     - read Dockerfile
     - start docker(run command)
         - container name: hello_container
-
-
+    - ommand: sleep infinity: to keep to work container.
+- 
